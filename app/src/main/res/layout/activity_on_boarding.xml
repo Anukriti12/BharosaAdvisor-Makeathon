@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true"
+    android:background="@android:color/white"
+    tools:context=".OnBoardingActivity">
+
+    <LinearLayout
+        android:id="@+id/on_boarding_layout_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center_horizontal|center">
+
+            <ImageView
+                android:id="@+id/bharosalogo"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                android:src="@drawable/bharosalogo_black"
+                tools:ignore="ContentDescription" /><!--22a7f4-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100sp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="15sp"
+                android:layout_toEndOf="@+id/bharosalogo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:maxLines="1"
+                    android:text="@string/bharosa_advisor"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bharosa_motto"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/on_boarding_login_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/login"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/on_boarding_login_mobile_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_no"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/on_boarding_login_mobile_input"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bg"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/on_boarding_login_password_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/on_boarding_login_password_input"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bg"
+            android:inputType="textPassword"
+            android:labelFor="@id/on_boarding_login_password_input"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:visibility="gone"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/on_boarding_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:alpha="0.5"
+            android:background="@drawable/btn_bg"
+            android:enabled="false"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/on_boarding_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginEnd="20dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:alpha="0.5"-->
+            <!--android:background="@android:color/black" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50sp">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/on_boarding_login_estimate"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center|center_horizontal|center_vertical"-->
+                <!--android:layout_marginBottom="10sp"-->
+                <!--android:layout_marginEnd="10sp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="5sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--android:drawableStart="@drawable/ic_estimate_black"-->
+                <!--android:gravity="center|center_vertical|center_horizontal"-->
+                <!--android:text="@string/estimate"-->
+                <!--android:textAllCaps="true"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="15sp"-->
+                 <!--/>-->
+
+            <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center|center_horizontal"-->
+                <!--android:layout_marginBottom="3sp"-->
+                <!--android:alpha="0.5"-->
+                <!--android:background="@android:color/black" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/on_boarding_forgot_password_link"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center|center_horizontal|center_vertical"-->
+                <!--android:layout_marginBottom="10sp"-->
+                <!--android:layout_marginEnd="20dp"-->
+                <!--android:layout_marginTop="5sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@color/colorTransparent"-->
+                <!--android:gravity="center|center_horizontal|center_vertical"-->
+                <!--android:maxLines="1"-->
+                <!--android:text="@string/forgot_password"-->
+                <!--android:textAllCaps="true"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <Button
+        android:id="@+id/on_boarding_forgot_password_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginEnd="20sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"
+        android:background="@color/colorTransparent"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:maxLines="1"
+        android:text="@string/forgot_password"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/on_boarding_login_estimate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="60sp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="3dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="0.5"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:drawablePadding="25dp"
+                    android:drawableStart="@drawable/ic_estimate"
+                    android:gravity="center_vertical"
+                    android:padding="15dp"
+                    android:text="@string/estimate"
+                    android:textSize="22sp" />
+
+            </android.support.v7.widget.CardView>
+            <View
+            android:layout_width="1dp"
+            android:layout_height="60sp"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginBottom="3sp"
+            android:alpha="0.5"
+            android:background="@android:color/darker_gray" />
+            <android.support.v7.widget.CardView
+                android:id="@+id/learn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="60sp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="3dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="0.5"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:drawablePadding="25dp"
+                    android:drawableStart="@drawable/ic_book"
+                    android:gravity="center_vertical"
+                    android:padding="15dp"
+                    android:text="@string/learn"
+                    android:textSize="22sp" />
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/on_boarding_signup_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorTransparent"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="@string/signup_now"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/on_boarding_intro_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClick"
+        android:visibility="gone"
+        android:background="@color/colorPrimary">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/on_boarding_intro_money"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="money.json"
+            app:lottie_loop="true" />
+
+        <TextView
+            android:id="@+id/on_boarding_intro_text"
+            android:layout_below="@id/on_boarding_intro_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textSize="36sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="@string/triple_your_money_in_ten_years"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"/>
+        
+        <Button
+            android:id="@+id/on_boarding_intro_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/get_started"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

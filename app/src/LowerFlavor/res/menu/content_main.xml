@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_add"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="100"
+        android:title="@string/add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/main_withdraw"
+        android:icon="@drawable/ic_withdraw"
+        android:orderInCategory="101"
+        android:title="@string/withdraw"
+        app:showAsAction="ifRoom" />
+
+    <!--TODO - INCLUDE IMPLEMENTED FUNCTIONALITY-->
+    <!--<item-->
+        <!--android:id="@+id/main_notification"-->
+        <!--android:icon="@drawable/ic_notifications"-->
+        <!--android:orderInCategory="102"-->
+        <!--android:title="@string/notifications"-->
+        <!--app:showAsAction="ifRoom" />-->
+
+</menu>

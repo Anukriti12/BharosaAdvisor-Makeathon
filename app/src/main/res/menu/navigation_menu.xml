@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/act">
+        <menu>
+            <item
+                android:id="@+id/nav_monitor"
+                android:icon="@drawable/ic_monitor"
+                android:title="@string/monitor" />
+
+            <item
+                android:id="@+id/nav_add"
+                android:icon="@drawable/ic_add"
+                android:title="@string/add_amount" />
+
+            <item
+                android:id="@+id/nav_withdraw"
+                android:icon="@drawable/ic_withdraw"
+                android:title="@string/withdraw_amount" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/knowledge">
+        <menu>
+            <item
+                android:id="@+id/nav_checklist"
+                android:icon="@drawable/ic_checklist"
+                android:title="@string/checklist" />
+
+            <item
+                android:id="@+id/nav_learn"
+                android:icon="@drawable/ic_learn"
+                android:title="@string/learn" />
+
+
+            <item
+                android:id="@+id/nav_estimate"
+                android:icon="@drawable/ic_estimate"
+                android:title="@string/estimate" />
+
+        </menu>
+    </item>
+
+    <!--TODO - INCLUDE IMPLEMENTED FUNCTIONALITY-->
+    <!--<item android:title="@string/more">-->
+        <!--<menu>-->
+
+            <!--<item-->
+                <!--android:id="@+id/nav_language"-->
+                <!--android:icon="@drawable/ic_language"-->
+                <!--android:title="@string/change_language" />-->
+
+            <!--<item-->
+                <!--android:id="@+id/nav_edit_values"-->
+                <!--android:icon="@drawable/ic_edit_values"-->
+                <!--android:title="@string/edit_values" />-->
+
+            <item
+                android:id="@+id/nav_credits"
+                android:icon="@drawable/ic_credits"
+                android:title="@string/credits" />
+
+        <!--</menu>-->
+    <!--</item>-->
+
+    <item
+        android:id="@+id/nav_sign_out"
+        android:icon="@drawable/ic_user"
+        android:title="@string/sign_out" />
+
+</menu>

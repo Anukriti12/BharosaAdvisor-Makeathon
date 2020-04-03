@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Wealth Simple - TM</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="login">Login</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="password">Password</string>
+    <string name="next">Next</string>
+    <string name="signup_now">Signup Now</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="monthly_withdrawal">Monthly Withdrawal</string>
+    <string name="monthly_investment">Monthly Investment</string>
+    <string name="lumpsum_investment">Lumpsum Investment</string>
+    <string name="lumpsum_withdraw_amount">Lumpsum Withdrawal Amount</string>
+    <string name="monthly_withdraw_amount">Monthly Withdrawal Amount</string>
+    <string name="all_units">All Units</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="made_with">Made with</string>
+    <string name="by">by</string>
+    <string name="credit1">Ankit Priyarup (Lead Developer)</string>
+    <string name="credit2">Anukriti Kumar (Developer)</string>
+    <string name="credit3">Gangesh Chawla (Project Manager)</string>
+    <string name="credit4">Kuldeep KD Bagwari (Backend Developer)</string>
+    <string name="your_estimated_wealth">Your Estimated Wealth:</string>
+    <string name="_10_years">10 years</string>
+    <string name="_20_years">20 years</string>
+    <string name="_50_years">50 years</string>
+    <string name="your_actions">Your Actions:</string>
+    <string name="your_wealth_today">Your Wealth Today:</string>
+    <string name="recent_transactions">Recent Transactions:</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="empty_status">You haven\'t purchased anything yet</string>
+    <string name="invested">Invested:</string>
+    <string name="gain_loss">Gain/Loss:</string>
+    <string name="withdrawnamount">Withdrawn:</string>
+    <string name="multiple">Multiple:</string>
+    <string name="net_investment">Net Investment:</string>
+    <string name="market_value">Market Value:</string>
+    <string name="confirm_dob">Confirm your Date Of Birth</string>
+    <string name="spotlight_title1">Add and Withdraw Amounts</string>
+    <string name="spotlight_description1">Easily add and withdraw transactions in one tap</string>
+    <string name="spotlight_title2">Estimate earnings</string>
+    <string name="spotlight_description2">Not sure how much to invest? Calculate and plan your investment first</string>
+    <string name="videos">Videos</string>
+    <string name="documents">Documents</string>
+    <string name="monitor">Monitor</string>
+    <string name="checklist">Checklist</string>
+    <string name="learn">Learn</string>
+    <string name="add_amount">Add Amount</string>
+    <string name="withdraw_amount">Withdraw Amount</string>
+    <string name="estimate">Estimate</string>
+    <string name="credits">Credits</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="accept_all_terms">Accept All Terms</string>
+    <string name="check_now">Check Now</string>
+    <string name="lacs">Lacs</string>
+    <string name="crores">Crores</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="login_failed_message">Sorry, user not found. Please recheck your mobile number. In case you are not a Bharosa member visit www.bharosaclub.com and become a member.</string>
+    <string name="login_failed_credential_message">Sorry, credentials didn\'t match. Please recheck your credentials.</string>
+    <string name="okay">OK</string>
+    <string name="unable_to_connect">Unable to connect</string>
+    <string name="unable_to_connect_message">Sorry, unable to connect to the server. Please check your internet connection.</string>
+    <string name="pinlock_title">Enter Pin Code</string>
+    <string name="pinlock_settitle">Set Pin Code</string>
+    <string name="pinlock_wrongpin">Wrong Pin code</string>
+    <string name="pinlock_secondPin">Enter Pin Code Again</string>
+    <string name="pinlock_tryagain">Pin Codes Are Not The Same</string>
+    <string name="pinlock_fingerprint">Use Fingerprint</string>
+    <string name="select_language">Select Language</string>
+    <string name="no_recent_transactions">No Recent Transactions Found :(</string>
+    <string name="act">ACT</string>
+    <string name="knowledge">KNOWLEDGE</string>
+    <string name="confirm">Confirm</string>
+    <string name="sure_add">Are you sure you want to add the specified transaction?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sure_delete">Are you sure you want to delete this transaction?</string>
+    <string name="allunits_delete">All your holdings will be redeemed. All monthly transactions will be canceled. The redemption transactions may involve penalties and short-term taxes. Please confirm if you want to go ahead</string>
+    <string name="desc_update">Type the new amount that you want the current value to be updated to</string>
+    <string name="message">Message</string>
+    <string name="error_document">Error loading document!</string>
+    <string name="message_amount_multiple">The amount added should be a multiple of 100</string>
+    <string name="message_amount_invalid">The amount added is not valid</string>
+    <string name="message_amount_more">The first amount added should be more than 500</string>
+    <string name="message_accept_checklist">You need to accept all the conditions before doing any transactions</string>
+    <string name="message_back">Please click BACK again to exit</string>
+    <string name="checklist_accepted">All checklist accepted</string>
+    <string name="withdraw_new_user">You cannot withdraw any amount until you add some to your account</string>
+    <string name="forgot_pass_message">Further information have been sent to you</string>
+    <string name="specific_amount">Specific Amount</string>
+    <string name="update_transaction">Update Transaction</string>
+    <string name="amount_updated">Your amount has been updated</string>
+    <string name="update">Update</string>
+    <string name="bharosa_advisor">Bharosa Advisor</string>
+    <string name="bharosa_motto">Make More. Pay Less.</string>
+    <string name="withdraw_update_overflow">Amount updated shouldn\'t exceed the total amount</string>
+    <string name="document_instruction">Swipe left and right to flip pages</string>
+    <string name="insufficient_withdraw">You don\'t have sufficient balance left</string>
+    <string name="triple_your_money_in_ten_years">Triple your money in ten years</string>
+    <string name="get_started">Get Started</string>
+    <string name="could_not_load_learn">Could not load learn section please check your internet connection</string>
+    <string name="privacy_title">Our Privacy Policy</string>
+    <string name="privacy_intro">Effective date: July 30, 2018 \n Bharosa Technoserve Private Limited ("us", "we", or "our") operates the website www.bharosaclub.con and the Wealth Simple-Triple Money mobile application (the "Service"). \n
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.\n
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</string>
+    <string name="heading1">Information Collection And Use:</string>
+    <string name="heading1_data">We collect several different types of information for various purposes to provide and improve our Service to you.</string>
+    <string name="heading2">Types of Data Collected: </string>
+    <string name="heading2_data">Personal Data: \n While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to: \n
+Email address \n Phone number \n Cookies and Usage Data \n Usage Data: \n We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device ("Usage Data").\n
+This Usage Data may include information such as your computer\'s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.\n
+When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.\n
+Tracking And Cookies Data:\n We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.\n
+Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.\n
+You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+\n Examples of Cookies we use:\nSession Cookies: We use Session Cookies to operate our Service.\nPreference Cookies: We use Preference Cookies to remember your preferences and various settings.
+Security Cookies: We use Security Cookies for security purposes.</string>
+    <string name="heading3">Use of the Information collected: </string>
+    <string name="heading3_data">We use this information so that we can:\n 1.  Administer your account \n 2.  Send you transactional and marketing communications \n 3.  Respond to your questions and concerns
+\n 4.  Improve our marketing efforts\n 5.  Display content based upon your interests\n 6.  To provide and maintain the Service \n 7.  To notify you about changes to our Service \n 8.  To
+        allow you to participate in interactive features of our Service when you choose to do so \n 9.  To provide customer care
+        and support \n 10. To provide analysis or valuable information so that we can improve the Service
+\n 11. To monitor the usage of the Service \n 12. To detect, prevent and address technical issues</string>
+    <string name="heading4">Information Sharing And Disclosure: </string>
+    <string name="heading4_data">We will share your personal information with third parties (e.g. Mutual Fund Utility – MFU) only in the manner described in this privacy statement. We do not sell your personal information to third parties. \n
+We may provide your personal information to companies that provide services to help us with our business activities such as offering customer service. These companies are authorized to use your personal information only as necessary to provide these services to us.
+\nWe may also disclose your personal information:\n  as required by law such as to comply with legal process\n  when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request,
+\n  if Bharosa Club, a service of Bharosa Club is involved in a merger, acquisition, or sale of all or a portion of its assets, you will be notified via email and/or a prominent notice on our Web site of any change in ownership or uses of your personal information, as well as any choices you may have regarding your personal information,
+\n  to any other third party with your prior consent to do so </string>
+    <string name="heading5">Security Of Data: </string>
+    <string name="heading5_data">The security of your data is important to us, but remember that no method of transmission over the Internet, or method of elec
+Security Of Data</string>
+    <string name="heading6">Service Providers: </string>
+    <string name="heading6_data">We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
+These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+</string>
+    <string name="heading7">Google Analytics: </string>
+    <string name="heading7_data">Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
+   For more information on the privacy practices of Google, please visit the Google Privacy and Terms web page: https://policies.google.com/privacy?hl=en
+</string>
+    <string name="heading8">Links To Other Sites: </string>
+    <string name="heading8_data">Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy of every site you visit.
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+</string>
+    <string name="heading9">Children\'s Privacy: </string>
+    <string name="heading9_data">Our Service does not address anyone under the age of 18 ("Children").We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</string>
+    <string name="heading10">Changes To This Privacy Policy: </string>
+    <string name="heading10_data">We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</string>
+    <string name="heading11">Contact Us: </string>
+    <string name="heading11_data">You can contact us about this privacy statement by writing or email us at the address below: \n\n
+401 Aradhana Apartments,\n RK Puram Sector 13,\n New Delhi – 110066 India \n \n Email : advisory@bharosaclub.com</string>
+
+
+    <string name="path_ridge_1">M56.2199243,45.3815903 C56.2199243,45.3815903 65.1913567,38.8543184 80.3604294,38.8543184 C95.5295022,38.8543184 103.720044,45.2851323 103.720044,45.2851323</string>
+    <string name="path_ridge_2">M45.5181172,67.9181841 C49.9761548,62.7019025 59.122049,49.7790452 80.2279027,49.7790452 C101.333756,49.7790452 110.740506,62.0384399 114.937688,67.9181841</string>
+    <string name="path_ridge_3">M51.7375623,107.718438 C51.7375623,107.718438 48.7129745,99.6302234 48.7129745,91.6334356 C48.7129745,81.3266864 55.9028711,60.2476586 80.4057228,60.2478671 C100.798248,60.2480407 112.457463,79.7942647 112.457463,88.386575 C112.457462,99.2963939 105.619846,103.039218 100.781849,102.18762 C95.9438519,101.336021 90.4490979,97.2187731 91.0639139,92.3178681 C91.67873,87.4169631 85.2177374,81.3265129 80.7504553,81.3266871 C73.0900115,81.3269859 69.8146331,85.3921834 69.8146329,92.2700585 C69.8146324,107.718437 83.7557525,121.02713 91.6787289,121.027128</string>
+    <string name="path_ridge_4">M70.7357889,121.024995 C70.7357889,121.024995 57.4650216,106.018711 58.8888756,91.5596242 C60.5513085,74.6777941 73.9858126,70.313752 80.3788823,70.3807995 C86.771952,70.4478469 101.550994,76.8218704 101.550997,92.2895418</string>
+    <string name="path_ridge_5">M80.1599645,91.1813411 C80.1599645,91.1813411 81.1144795,102.68333 86.7971146,107.529716 C93.2390527,113.023667 105.911091,112.342743 105.911091,112.342743</string>
+    <string name="path_tick">M52.2735573,79.0771904 C52.2735573,79.0771904 69.2403688,96.0440006 69.2403683,96.0440014 C69.2403679,96.0440021 109.820188,55.4641819 109.820188,55.4641819</string>
+    <string name="path_cross_1">M62,62 C62,62 80.5647617,80.5647617 80.564762,80.564762 C80.5647622,80.5647622 94.2921789,94.223714 98.5644262,98.5644262</string>
+    <string name="path_cross_2">M98.5644262,62 C98.5644251,62 81.1979242,79.366503 81.1979229,79.3665033 C81.1979216,79.3665035 62,98.5644262 62,98.5644262</string>
+
+</resources>

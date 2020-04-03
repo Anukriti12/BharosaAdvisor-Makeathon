@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        app:navigationIcon="@drawable/ic_withdraw"
+        app:title="@string/withdraw_amount"
+        app:titleTextColor="@android:color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <RadioGroup
+        android:id="@+id/withdraw_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:checkedButton="@id/withdraw_specific"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/withdraw_specific"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/specific_amount" />
+
+        <RadioButton
+            android:id="@+id/withdraw_all_units"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_units" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/withdraw_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/withdraw_lumpsum_investment_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/lumpsum_withdraw_amount"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/withdraw_lumpsum_investment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:inputType="numberDecimal"
+            android:labelFor="@id/withdraw_lumpsum_investment"
+            android:maxLength="7"
+            android:maxLines="1"
+            android:textColor="#000000"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/withdraw_monthly_investment_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/monthly_withdraw_amount"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/withdraw_monthly_investment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:inputType="numberDecimal"
+            android:labelFor="@id/withdraw_monthly_investment"
+            android:maxLength="7"
+            android:maxLines="1"
+            android:textColor="#000000"
+            tools:ignore="LabelFor" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/withdraw_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/withdraw_cancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="@string/cancel"
+            android:textColor="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/withdraw_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="@string/withdraw"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+</LinearLayout>

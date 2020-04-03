@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#019AE8</color>
+    <color name="colorPrimaryDark">#0076BF</color>
+    <color name="colorAccent">#673AB7</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#23B175</color>
+    <color name="colorLightGrey">#f4f4f4</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="fingerprint_ridge">@color/colorAccent</color>
+</resources>

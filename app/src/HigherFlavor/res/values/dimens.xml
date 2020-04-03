@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="fingerprint_viewport_width">160</integer>
+    <integer name="fingerprint_viewport_height">160</integer>
+    <integer name="fingerprint_viewport_center">80</integer>
+    <integer name="fingerprint_stroke_width">5</integer>
+    <integer name="tick_cross_stroke_width">7</integer>
+
+    <dimen name="fingerprint_width">80dp</dimen>
+    <dimen name="fingerprint_height">80dp</dimen>
+    <dimen name="default_delete_button_size_width">39dp</dimen>
+    <dimen name="default_delete_button_size_height">27dp</dimen>
+    <dimen name="dot_diameter">12dp</dimen>
+    <dimen name="dot_spacing">12.2dp</dimen>
+    <dimen name="default_horizontal_spacing">40dp</dimen>
+    <dimen name="default_vertical_spacing">18dp</dimen>
+    <dimen name="default_text_size">25sp</dimen>
+    <color name="text_number_pressed">#fff</color>
+    <dimen name="default_button_size">60dp</dimen>
+</resources>
