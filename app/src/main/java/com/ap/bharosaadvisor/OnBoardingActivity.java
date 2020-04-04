@@ -234,9 +234,9 @@ public class OnBoardingActivity extends AppCompatActivity
                     .putString("language", "en")
                     .apply();
             updateView(sharedPreferences.getString("language", "en"));
-//            Intent intent = new Intent(OnBoardingActivity.this, LanguageActivity.class);
-//            intent.putExtra("calledFromMainNavigation", false);
-//            startActivity(intent);
+            Intent intent = new Intent(OnBoardingActivity.this, LanguageActivity.class);
+            intent.putExtra("calledFromMainNavigation", false);
+            startActivity(intent);
         } else updateView(sharedPreferences.getString("language", "en"));
     }
 

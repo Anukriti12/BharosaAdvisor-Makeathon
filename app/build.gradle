@@ -6,8 +6,8 @@ android {
         applicationId "com.ap.bharosaadvisor"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 5
-        versionName "1.4"
+        versionCode 3
+        versionName "1.2"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -26,6 +26,8 @@ android {
 
         }
     }
+
+
 }
 
 dependencies {

@@ -52,7 +52,7 @@ public class LanguageActivity extends AppCompatActivity
             }
         }
 
-        recyclerView.setAdapter(languageAdapter);
+        recyclerView.setAdapter(new LanguageAdapter(LanguageActivity.this,SUPPORTED_LANGUAGES));
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
 

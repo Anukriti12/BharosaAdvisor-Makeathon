@@ -170,21 +170,11 @@ public class Utils
                             String[] fiftyYearValues = result.getString("fiftyyearvalue").split(" ");
 
                             TEN_YEAR_VALUE = Float.parseFloat(tenYearValues[0]);
-                            if (tenYearValues.length >= 2)
-                                TEN_YEAR_LABEL = tenYearValues[1];
-                            else
-                                TEN_YEAR_LABEL = "Lacs";
-
+                            TEN_YEAR_LABEL = tenYearValues[1];
                             TWENTY_YEAR_VALUE = Float.parseFloat(twentyYearValues[0]);
-                            if (twentyYearValues.length >= 2)
-                                TWENTY_YEAR_LABEL = twentyYearValues[1];
-                            else
-                                TWENTY_YEAR_LABEL = "Lacs";
+                            TWENTY_YEAR_LABEL = twentyYearValues[1];
                             FIFTY_YEAR_VALUE = Float.parseFloat(fiftyYearValues[0]);
-                            if (fiftyYearValues.length >= 2)
-                                FIFTY_YEAR_LABEL = fiftyYearValues[1];
-                            else
-                                FIFTY_YEAR_LABEL = "Lacs";
+                            FIFTY_YEAR_LABEL = fiftyYearValues[1];
 
                             RECENT_TRANSACTIONS.clear();
                             JSONArray recentTransactions = result.getJSONArray("data");

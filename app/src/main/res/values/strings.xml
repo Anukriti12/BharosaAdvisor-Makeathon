@@ -72,6 +72,12 @@
     <string name="no_recent_transactions">No Recent Transactions Found :(</string>
     <string name="act">ACT</string>
     <string name="knowledge">KNOWLEDGE</string>
+    <string name="reset">Reset Password</string>
+    <string name="oldPass">Old Password: </string>
+    <string name="newPass">New Password: </string>
+    <string name="confirmPass">Confirm Password: </string>
+    <string name="reset_btn">RESET </string>
+    <string name="NoMatch"> Password didn\'t match </string>
     <string name="confirm">Confirm</string>
     <string name="sure_add">Are you sure you want to add the specified transaction?</string>
     <string name="yes">Yes</string>

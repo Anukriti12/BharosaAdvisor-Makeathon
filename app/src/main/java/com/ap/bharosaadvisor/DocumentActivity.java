@@ -25,7 +25,6 @@ public class DocumentActivity extends AppCompatActivity implements DownloadFile.
         setContentView(R.layout.activity_document);
 
         url = getIntent().getStringExtra("url");
-
         dialog = new ProgressDialog(this);
         dialog.setMessage("Loading LearnDocument...");
         dialog.show();
