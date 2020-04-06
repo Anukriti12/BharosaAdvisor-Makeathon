@@ -54,22 +54,6 @@
         android:textSize="14sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/credit3"
-        android:textAlignment="center"
-        android:textSize="14sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/credit4"
-        android:textAlignment="center"
-        android:textSize="14sp"
-        android:textStyle="bold" />
-
     <View
         android:layout_width="match_parent"
         android:layout_height="20dp" />
